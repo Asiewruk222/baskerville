@@ -31,7 +31,7 @@ p, blockquote {
 }
 
 h1, h2 {
-    color:rgb(46, 0, 9);
+    color: rgb(46, 0, 9);
 }
 
 h1 {
@@ -48,5 +48,65 @@ h2 {
 blockquote {
     font-style: italic; 
     font-size: 1.999rem;
-    color:rgb(46, 0, 9);
+    color: rgb(46, 0, 9);
+    hanging-punctuation: first;
+    text-indent: -0.7rem;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-size: 1.5rem;
+    color: #333333; 
+}
+
+/*-- styling links --*/
+a {
+    color: rgb(46, 0, 9);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(46, 0, 9); 
+    border-bottom: 1px dotted;
+}
+
+/*-- navigation --*/
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(46, 0, 9);
+    padding: 1.5rem 0;
+    font-size: 0.75rem;
+}
+
+nav ul {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+nav ul li {
+    display: in-line; 
+    margin: 20px;
+    background: none;
+}
+
+nav a {color: #f7f7f7}
+
+nav a:hover {
+    border-bottom: none;
+    color:rgb(220, 248, 128); 
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- styling the footer --*/
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 4rem;
 }
