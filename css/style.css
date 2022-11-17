@@ -22,7 +22,7 @@ section, header, footer {
 }
 
 section, header {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.3rem;
 }
 
 p, blockquote {
@@ -42,7 +42,7 @@ h1 {
 
 h2 {
     font-size: 1.999rem;
-    margin: 0.5rem 0 0.5rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 blockquote {
