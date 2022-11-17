@@ -22,7 +22,7 @@ section, header, footer {
 }
 
 section, header {
-    margin-bottom: 2rem;
+    margin-bottom: 0.5rem;
 }
 
 p, blockquote {
@@ -55,7 +55,7 @@ blockquote {
 
 blockquote cite {
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: #333333; 
 }
 
