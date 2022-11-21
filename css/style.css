@@ -59,6 +59,10 @@ blockquote cite {
     color: #333333; 
 }
 
+.leader {
+    text-transform: uppercase;
+}
+
 /*-- styling links --*/
 a {
     color: rgb(46, 0, 9);
@@ -81,6 +85,7 @@ nav {
     background-color: rgb(46, 0, 9);
     padding: 1.5rem 0;
     font-size: 0.75rem;
+    opacity: 80%;
 }
 
 nav ul {
@@ -99,7 +104,7 @@ nav a {color: #f7f7f7}
 
 nav a:hover {
     border-bottom: none;
-    color:rgb(220, 248, 128); 
+    color: #f7f7f7; 
     transition: all 0.3s ease-in-out;
 }
 
@@ -123,7 +128,7 @@ th {
     text-transform: uppercase;
     font-weight: normal;
     text-align: left;
-    color: rgb(220, 248, 128);
+    color: #f7f7f7;
     background-color: rgb(46, 0, 9);
     border: 2px solid #f7f7f7; 
 }
@@ -142,6 +147,15 @@ img{
     padding: 0;
     max-width: 100%;
 }
+
+hr {
+    margin: 15px 0;
+    height: 3px;
+    background-color: rgb(46, 0, 9); 
+    color: rgb(46, 0, 9);
+    border: 0 none; 
+}
+
 
 
 /*-- styling the footer --*/
