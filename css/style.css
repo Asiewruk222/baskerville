@@ -103,6 +103,39 @@ nav a:hover {
     transition: all 0.3s ease-in-out;
 }
 
+/*-- Styling Table --*/
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+caption {
+    margin: 1.5em 0;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+
+th {
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: left;
+    color: bisque;
+    background-color: rgb(46, 0, 9);
+    border: 2px solid #f7f7f7; 
+}
+
+th, td {padding: 0.4em;}
+
+table, td {
+    background: rgb(220, 248, 128); 
+    border: 2px solid #f7f7f7; 
+}
+
+
 /*-- styling the footer --*/
 
 footer {
